@@ -1,0 +1,19 @@
+{
+  "name": "teste-jenkins",
+  "version": "1.0.0",
+  "description": "teste-jenkins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaop9425/teste-jenkins.git"
+  },
+  "author": "João Paulo Neves <joao.p9425[a]gmail[dot]com> (https://maisumrepositorio.eti.br/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joaop9425/teste-jenkins/issues"
+  },
+  "homepage": "https://github.com/joaop9425/teste-jenkins#readme"
+}

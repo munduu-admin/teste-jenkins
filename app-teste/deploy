@@ -1,0 +1,23 @@
+#!/bin/sh      
+ssh root@142.93.75.48 <<EOF        
+ echo "ls -A"
+ ls -A
+ echo "Exit: $?"
+
+ echo "\$PWD - Seu diretório atual: "
+ echo $PWD
+
+ cd $PWD/app-teste/
+ echo "ls -A"
+ ls -A
+ echo "Exit: $?"
+
+ echo "npm install..."
+ npm install
+
+ ng build --prod
+ echo "ls -A"
+ ls -A
+ echo "Exit: $?"
+ exit       
+EOF
